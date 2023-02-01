@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.App{
+    width: 400px;
+    height: 600px;
+}
+.showProcess{
+    width: 100%;
+    height: 80px;
+    background-color: #383838;
+    cursor: not-allowed;
+}
+.numberCalculator{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #C1C0BB;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+}
+.numberCalculator:hover{
+    color: azure;
+    background-color:#686865 ;
+}
+.calculatorRow{
+    display: flex;
+    justify-content: space-around;
+}
+.processCalculator{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #d8622f;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 1000;
+}
+.processCalculator:hover{
+    color: azure;
+    background-color: #7C2C0A;
+}
+.clearRow{
+    width: 100%;
+    height: 50px;
+    background-color: #CCB78D;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.clearRow:hover{
+    color: azure;
+    background-color: #8E8062;
+}
+.inputText{
+    color: azure;
+    font-size: 18px;
+}
+.resultText{
+    text-align: end;
+    color: aqua;
+    font-size: 18px;
+    font-weight: 700;
+}
